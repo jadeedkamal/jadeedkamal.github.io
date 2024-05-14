@@ -1,0 +1,1192 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: "Jersey 20", sans-serif;
+    font-style: normal;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url('assets/bg2.png');
+    background-repeat: repeat-y;
+    height: 100%;
+}
+
+.main-heading{
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 100px;
+    font-size: 80px;
+    font-weight: 800;
+    background-color: black;
+    color: white;
+
+}
+
+.home-page-container-parts{
+    float: left;
+    width: 50%;
+}
+
+.home-page-buttons{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin: 200px auto;
+    border: solid 3px black;
+    border-radius: 10px;
+    width: 50%;
+    padding: 30px 0px;
+    background-color: white;
+    
+}
+
+.home-page-buttons:hover{
+    font-size: 60px;
+    background-color: black;
+    color: white;
+}
+
+.select-sports-page-container{
+    display: none;
+}
+
+.select-sport-option-box-heading{
+    border: solid 5px black;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 2px 2px rgb(157, 157, 157);
+}
+.select-sport-option-box-heading-title2{
+    margin-top: 10px;
+}
+
+.select-sport-option-box{
+    border: solid 5px black;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 2px 2px rgb(157, 157, 157);
+}
+
+.select-sport-input{
+    width: 200px;
+    margin-top: 10px;
+    padding: 3px 0;
+    text-align: center;
+    color: black;
+
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.select-sport-options-container{
+    overflow: auto;
+    width: 80%;
+    margin:0 auto;
+    padding: 10px 10px;
+}
+
+.select-sport-options{
+    float: left;
+    font-size: 20px;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 10px 3px;
+
+}
+
+.select-sport-options-active{
+    float: left;
+    font-size: 20px;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 10px 3px;
+    animation: mymove 0.3s infinite;
+    background-color: black;
+    color: white;
+
+}
+
+.select-sport-options:hover{
+    background-color: black;
+    color: white;
+}
+
+.select-sport-options-submit-button{
+    font-size: 20px;
+    border: solid 2px black;
+    width: 20%;
+    margin: 10px auto;
+    border-radius: 10px;
+
+}
+
+.select-sport-options-submit-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.team-create-page-container{
+    display: none;
+}
+
+.team-create-box-heading{
+    border: solid 5px black;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 2px 2px rgb(157, 157, 157);
+}
+.team-create-box-heading-title{
+    margin: 5px 0;
+}
+
+.team-create-box{
+    border: solid 5px black;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 2px 2px rgb(157, 157, 157);
+
+    overflow: auto;
+}
+
+.team-name-input{
+    width: 200px;
+    margin-top: 10px;
+    padding: 3px 0;
+    text-align: center;
+    color: black;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    float: left;
+}
+
+.team-create-add-box{
+    height: 50px;
+    width: 60%;
+    margin: 10px auto;
+    
+}
+
+.team-add-button{
+    float: left;
+    font-size: 20px;
+    border: solid 2px black;
+    width: 20%;
+    margin: 13px 10px;
+    border-radius: 10px;
+}
+
+.team-add-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.team-create-submit-button{
+    font-size: 20px;
+    border: solid 2px black;
+    width: 20%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.team-create-submit-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.team-names-box{
+    width: 80%;
+    margin: 0 auto;
+    overflow: auto;
+    
+    
+}
+
+.team-name-box{
+    border: solid 2px black;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.team-delete{
+    
+    padding: 1px 5px;
+    font-size: 20px;
+    font-weight: 800px;
+    border: solid 2px black;
+    border-radius: 50%;
+    background-color: red;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.team-select-page-container{
+    display: none;
+}
+
+.team-select-box-heading{
+    border: solid 5px black;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 2px 2px rgb(157, 157, 157);
+}
+.team-select-box-heading-title{
+    margin: 5px 0;
+}
+
+.team-select-box{
+    border: solid 5px black;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 2px 2px rgb(157, 157, 157);
+
+    overflow: auto;
+}
+
+
+.team-select-submit-button{
+    font-size: 20px;
+    border: solid 2px black;
+    width: 20%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.team-select-submit-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.teams-box-options{
+    font-size: 30px;
+    font-weight: 800;
+    border: solid 2px black;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.teams-box-options-active{
+    font-size: 30px;
+    font-weight: 800;
+    border: solid 2px black;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 10px;
+
+    background-color: black;
+    color: white;
+
+    animation: mymove 0.3s infinite;
+
+}
+
+.football-match{
+    display: none;
+}
+
+.timer{
+    
+    border: solid 5px rgb(0, 0, 0);
+    background-color: white;
+    width: 500px;
+    margin: 10px auto;
+    border-radius: 25px;
+}
+
+.time-text{
+    font-size: 100px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.timer-button-box{
+    width: 330px;
+    margin: 0 auto;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.timer-buttons{
+    float: left;
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    margin:0px 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.timer-buttons:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.score-container{
+    width: 800px;
+    overflow: auto;
+    margin: 0 auto;
+    
+}
+.score-box{
+    float: left;
+    
+    margin-left: 50px;
+
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+.score-text{
+    font-size: 300px;
+    float: left;
+    border: solid 10px black;
+    width: 300px;
+    
+    background-color: white;
+    border-radius: 25px;
+}
+
+.score-controller-box{
+    margin-top: 50px;
+}
+
+.score-controllers{
+    font-size: 25px;
+    border: solid 10px black;
+    padding: 10px 20px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 25px;
+
+}
+
+.score-controllers:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.team-name{
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 1px 1px rgb(53, 53, 53);
+}
+
+.view-games-page-container{
+    display: none;
+}
+
+.view-games-filter-box{
+    width: 1000px;
+    margin: 20px auto;
+    
+    overflow: auto;
+    padding: 10px 0;
+
+}
+
+.view-games-filters{
+    float: left;
+    width: 31%;
+    border: solid 2px black;
+    text-align: center;
+    border-radius: 25px;
+    margin: 0px 10px;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: white;
+    box-shadow: 2px 2px rgb(157, 157, 157);
+
+}
+
+.view-games-filters-active{
+    float: left;
+    width: 31%;
+    border: solid 2px black;
+    text-align: center;
+    border-radius: 25px;
+    margin: 0px 10px;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 2px 2px rgb(157, 157, 157);
+    color: white;
+    animation: mymove 1s infinite;
+
+}
+
+.view-games-options-box{
+    border: solid 10px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 25px;
+    background-color: white;
+    overflow: auto;
+
+}
+
+.view-games-options{
+    border: solid 2px black;
+    margin: 10px;
+    overflow: auto;
+    border-radius: 25px;
+
+}
+
+.vgo{
+    float: left;
+    font-size: 30px;
+    font-weight: 800;
+    border: solid 2px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 10px 27px;
+}
+
+.view-games-options-title{
+    border: none;
+    font-size: 30px;
+    width: 45%;
+}
+
+.view-games-options-status{
+    background-color: rgb(243, 6, 6);
+    color: white;
+    border: solid 2px black;
+    width: 20%;
+}
+
+.view-games-options-status-live{
+    background-color: rgb(31, 191, 31);
+    color: white;
+    border: solid 2px black;
+    width: 20%;
+}
+
+.view-games-options-team-names{
+    width: 45%
+}
+
+.view-games-options-team-score{
+    width: 20%;
+}
+
+.view-games-options-sport{
+    width: 20%;
+}
+
+.view-games-options-time{
+    width: 20%;
+}
+
+
+
+
+@keyframes mymove {
+    50% {transform: rotate(2deg);}
+  }
+
+@media screen and (max-width: 800px) {
+    .home-page-container-parts{
+        float: none;
+        margin: 0 auto;
+        padding-top: 100px;
+        width: 100%;
+    }
+
+    .home-page-buttons{
+
+        width: 50%;
+        margin: 0 auto;
+    
+    }
+    
+    .score-container{
+        width: 400px;
+        overflow: auto;
+        margin: 0 auto;
+        
+    }
+    .score-box{
+        float: left;
+        
+        margin-left: 50px;
+    
+        border-radius: 25px;
+        text-align: center;
+        margin-bottom: 30px;
+    
+    }
+    
+    .score-text{
+        font-size: 200px;
+        float: left;
+        border: solid 10px black;
+        width: 300px;
+        
+        background-color: white;
+        border-radius: 25px;
+    }
+    
+    .score-controller-box{
+        margin-top: 50px;
+    }
+    
+    .score-controllers{
+        font-size: 25px;
+        border: solid 10px black;
+        padding: 10px 20px;
+        float: left;
+        margin-left: 60px;
+        margin-top: 10px;
+        background-color: white;
+        border-radius: 25px;
+    
+    }
+    
+    .score-controllers:hover{
+        background-color: black;
+        color: white;
+    
+    }
+    
+    .team-name{
+        font-size: 40px;
+        font-weight: 800;
+        text-shadow: 1px 1px rgb(53, 53, 53);
+    }
+
+    .view-games-filter-box{
+        width: 80%;
+        margin: 20px auto;
+        
+        overflow: auto;
+        padding: 10px 0;
+    
+    }
+    
+    .view-games-filters{
+        float: left;
+        width: 20%;
+        border: solid 2px black;
+        text-align: center;
+        border-radius: 25px;
+        margin: 0px 10px;
+        padding: 10px 0;
+        font-size: 20px;
+        font-weight: 800;
+        background-color: white;
+        box-shadow: 2px 2px rgb(157, 157, 157);
+    
+    }
+    
+    .view-games-filters-active{
+        float: left;
+        width: 31%;
+        border: solid 2px black;
+        text-align: center;
+        border-radius: 25px;
+        margin: 0px 10px;
+        padding: 10px 0;
+        font-size: 20px;
+        font-weight: 800;
+        background-color: rgb(0, 0, 0);
+        box-shadow: 2px 2px rgb(157, 157, 157);
+        color: white;
+        animation: mymove 1s infinite;
+    
+    }
+    
+    .view-games-options-box{
+        border: solid 10px;
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 25px;
+        background-color: white;
+        overflow: auto;
+    
+    }
+    
+    .view-games-options{
+        border: solid 2px black;
+        margin: 10px;
+        overflow: auto;
+        border-radius: 25px;
+    
+    }
+    
+    .vgo{
+        float: left;
+        font-size: 30px;
+        font-weight: 800;
+        border: solid 2px;
+        border-radius: 25px;
+        text-align: center;
+        margin: 10px 23px;
+    }
+    
+    .view-games-options-title{
+        border: none;
+        font-size: 30px;
+        width: 90%;
+    }
+    
+    .view-games-options-status{
+        background-color: rgb(243, 6, 6);
+        color: white;
+        border: solid 2px black;
+        width: 38%;
+    }
+    
+    .view-games-options-status-live{
+        background-color: rgb(31, 191, 31);
+        color: white;
+        border: solid 2px black;
+        width: 38%;
+    }
+    
+    .view-games-options-team-names{
+        width: 90%;
+    }
+    
+    .view-games-options-team-score{
+        width: 38%;
+    }
+    
+    .view-games-options-sport{
+        width: 38%;
+    }
+    
+    .view-games-options-time{
+        width: 38%;
+    }
+
+
+  }
+
+  
+@media screen and (max-width: 400px) {
+    .home-page-container-parts{
+        float: none;
+        margin: 0 auto;
+        padding-top: 100px;
+        width: 100%;
+    }
+
+    .home-page-buttons{
+        width: 50%;
+        margin: 0 auto;
+    
+    }
+
+    .select-sport-option-box-heading{
+        border: solid 5px black;
+        margin: 0 auto;
+        width: 70%;
+        text-align: center;
+        margin-top: 30px;
+        border-radius: 25px;
+        background-color: white;
+        box-shadow: 2px 2px rgb(157, 157, 157);
+    }
+    .select-sport-option-box-heading-title2{
+        margin-top: 10px;
+    }
+    
+    .select-sport-option-box{
+        border: solid 5px black;
+        margin: 0 auto;
+        width: 70%;
+        text-align: center;
+        margin-top: 10px;
+        border-radius: 25px;
+        background-color: white;
+        box-shadow: 2px 2px rgb(157, 157, 157);
+    }
+    
+    .select-sport-input{
+        width: 70%;
+        margin-top: 10px;
+        padding: 3px 0;
+        text-align: center;
+        color: black;
+    
+        font-size: 20px;
+        font-weight: 800;
+    }
+    
+    .select-sport-options-container{
+        overflow: auto;
+        width: 80%;
+        margin:0 auto;
+        padding: 10px 10px;
+    }
+    
+    .select-sport-options{
+        float:none;
+        font-size: 30px;
+        font-weight: 800;
+        border: solid 2px black;
+        border-radius: 10px;
+        padding: 10px 10px;
+        margin: 10px 3px;
+    
+    }
+    
+    .select-sport-options-active{
+        float: none;
+        font-size: 30px;
+        font-weight: 800;
+        border: solid 2px black;
+        border-radius: 10px;
+        padding: 10px 10px;
+        margin: 10px 3px;
+        animation: mymove 0.3s infinite;
+        background-color: black;
+        color: white;
+    
+    }
+    
+    .select-sport-options:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    .select-sport-options-submit-button{
+        font-size: 30px;
+        border: solid 2px black;
+        width: 50%;
+        margin: 10px auto;
+        border-radius: 10px;
+        font-weight: 800;
+    
+    }
+    
+    .select-sport-options-submit-button:hover{
+        background-color: black;
+        color: white;
+    }
+
+    .team-create-box-heading{
+        border: solid 5px black;
+        margin: 0 auto;
+        width: 70%;
+        text-align: center;
+        margin-top: 30px;
+        border-radius: 25px;
+        background-color: white;
+        box-shadow: 2px 2px rgb(157, 157, 157);
+    }
+    
+    .team-create-box{
+        border: solid 5px black;
+        margin: 0 auto;
+        width: 70%;
+        text-align: center;
+        margin-top: 10px;
+        border-radius: 25px;
+        background-color: white;
+        box-shadow: 2px 2px rgb(157, 157, 157);
+    
+        overflow: auto;
+    }
+    
+    .team-name-input{
+        width: 60%;
+        margin-top: 10px;
+        padding: 3px 0;
+        text-align: center;
+        color: black;
+        margin-left: 20px;
+        font-size: 20px;
+        font-weight: 800;
+        float: left;
+    }
+    
+    .team-create-add-box{
+        height: 50px;
+        width: 100%;
+        margin: 10px auto;
+        
+    }
+    
+    .team-add-button{
+        float: left;
+        font-size: 20px;
+        border: solid 2px black;
+        width: 20%;
+        margin: 13px 10px;
+        border-radius: 10px;
+        font-weight: 800;
+    }
+    
+    .team-add-button:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    .team-create-submit-button{
+        font-size: 20px;
+        border: solid 2px black;
+        width: 50%;
+        margin: 10px auto;
+        border-radius: 10px;
+        font-weight: 800;
+    }
+    
+    .team-create-submit-button:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    .team-names-box{
+        width: 80%;
+        overflow: auto;
+        
+    }
+    
+    .team-name-box{
+        border: solid 2px black;
+        margin: 0 auto;
+        font-size: 40px;
+        font-weight: 800;
+        border-radius: 10px;
+        width: 80%;
+        margin-bottom: 10px;
+        float: left;
+    }
+    
+    .team-delete{
+        
+        padding: 1px 5px;
+        font-size: 20px;
+        font-weight: 800px;
+        border: solid 2px black;
+        border-radius: 50%;
+        background-color: red;
+        float: left;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .team-select-box-heading{
+        border: solid 5px black;
+        margin: 0 auto;
+        width: 70%;
+        text-align: center;
+        margin-top: 30px;
+        border-radius: 25px;
+        background-color: white;
+        box-shadow: 2px 2px rgb(157, 157, 157);
+    }
+    .team-select-box-heading-title{
+        margin: 5px 0;
+    }
+    
+    .team-select-box{
+        border: solid 5px black;
+        margin: 0 auto;
+        width: 70%;
+        text-align: center;
+        margin-top: 10px;
+        border-radius: 25px;
+        background-color: white;
+        box-shadow: 2px 2px rgb(157, 157, 157);
+    
+        overflow: auto;
+    }
+    
+    
+    .team-select-submit-button{
+        font-size: 20px;
+        font-weight: 800;
+        border: solid 2px black;
+        width: 50%;
+        margin: 10px auto;
+        border-radius: 10px;
+        margin-top: 60px;
+    }
+    
+    .team-select-submit-button:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    .teams-box-options{
+        font-size: 40px;
+        font-weight: 800;
+        border: solid 2px black;
+        width: 70%;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-top: 10px;
+    
+    }
+    
+    .teams-box-options-active{
+        font-size: 40px;
+        font-weight: 800;
+        border: solid 2px black;
+        width: 70%;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-top: 10px;
+    
+        background-color: black;
+        color: white;
+    
+        animation: mymove 0.3s infinite;
+    
+    }
+
+    .timer{
+    
+        border: solid 5px rgb(0, 0, 0);
+        background-color: white;
+        width: 330px;
+        margin: 10px auto;
+        border-radius: 25px;
+    }
+    
+    .time-text{
+        font-size: 100px;
+        text-align: center;
+        font-weight: 800;
+    }
+    
+    .timer-button-box{
+        width: 330px;
+        margin: 0 auto;
+        overflow: auto;
+        margin-bottom: 20px;
+    }
+    
+    .timer-buttons{
+        float: left;
+        border: solid 2px black;
+        border-radius: 10px;
+        width: 20%;
+        text-align: center;
+        padding: 10px;
+        margin:0px 10px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    
+    .timer-buttons:hover{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+    
+    .score-container{
+        width: 270px;
+        overflow: auto;
+        margin: 0 auto;
+        
+        
+    }
+    .score-box{
+        float: left;
+        
+        margin-left: 0px;
+    
+        border-radius: 25px;
+        text-align: center;
+    
+    }
+    
+    .score-text{
+        font-size: 100px;
+        float: left;
+        border: solid 10px black;
+        width: 250px;
+        
+        background-color: white;
+        border-radius: 25px;
+    }
+    
+    .score-controller-box{
+        margin-top: 50px;
+    }
+    
+    .score-controllers{
+        font-size: 25px;
+        border: solid 10px black;
+        padding: 10px 20px;
+        float: left;
+        margin-left: 45px;
+        margin-top: 10px;
+        background-color: white;
+        border-radius: 25px;
+    
+    }
+    
+    .score-controllers:hover{
+        background-color: black;
+        color: white;
+    
+    }
+    
+    .team-name{
+        font-size: 40px;
+        font-weight: 800;
+        text-shadow: 1px 1px rgb(53, 53, 53);
+    }
+
+    .view-games-filter-box{
+        width: 65%;
+        margin: 20px auto;
+        
+        overflow: auto;
+        padding: 10px 0;
+    
+    }
+    
+    .view-games-filters{
+        float: left;
+        width: 20%;
+        border: solid 2px black;
+        text-align: center;
+        border-radius: 25px;
+        margin: 0px 10px;
+        padding: 10px 0;
+        font-size: 20px;
+        font-weight: 800;
+        background-color: white;
+        box-shadow: 2px 2px rgb(157, 157, 157);
+    
+    }
+    
+    .view-games-filters-active{
+        float: left;
+        width: 31%;
+        border: solid 2px black;
+        text-align: center;
+        border-radius: 25px;
+        margin: 0px 10px;
+        padding: 10px 0;
+        font-size: 20px;
+        font-weight: 800;
+        background-color: rgb(0, 0, 0);
+        box-shadow: 2px 2px rgb(157, 157, 157);
+        color: white;
+        animation: mymove 1s infinite;
+    
+    }
+    
+    .view-games-options-box{
+        border: solid 10px;
+        width: 70%;
+        margin: 0 auto;
+        border-radius: 25px;
+        background-color: white;
+        overflow: auto;
+    
+    }
+    
+    .view-games-options{
+        border: solid 2px black;
+        margin: 10px;
+        overflow: auto;
+        border-radius: 25px;
+    
+    }
+    
+    .vgo{
+        float: left;
+        font-size: 30px;
+        font-weight: 800;
+        border: solid 2px;
+        border-radius: 25px;
+        text-align: center;
+    }
+    
+    .view-games-options-title{
+        border: none;
+        font-size: 30px;
+        width: 75%;
+    }
+    
+    .view-games-options-status{
+        background-color: rgb(243, 6, 6);
+        color: white;
+        border: solid 2px black;
+        width: 75%;
+    }
+    
+    .view-games-options-status-live{
+        background-color: rgb(31, 191, 31);
+        color: white;
+        border: solid 2px black;
+        width: 75%;
+    }
+    
+    .view-games-options-team-names{
+        width: 75%;
+    }
+    
+    .view-games-options-team-score{
+        width: 75%;
+    }
+    
+    .view-games-options-sport{
+        width: 75%;
+    }
+    
+    .view-games-options-time{
+        width: 75%;
+    }
+
+
+
+
+
+  }

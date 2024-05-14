@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&display=swap" rel="stylesheet">
+
+    <title>SCORIFY</title>
+</head>
+<body>
+    <h1 class="main-heading">SCORIFY</h1>
+    <div id="home-page-container" class="home-page-container">
+        
+        <div class="home-page-container-parts">
+            <div id="host-button" class="home-page-buttons">
+                HOST
+            </div>
+        </div>
+
+        <div class="home-page-container-parts">
+            <div id="view-button" class="home-page-buttons">
+                VIEW
+            </div>
+        </div>
+    </div>
+
+    <div class="select-sports-page-container" id="select-sports-page-container">
+        <div class="select-sport-option-box-heading">
+            <h2 class="select-sport-option-box-heading-title">SELECT SPORT</h2>
+        </div>
+
+        <div class="select-sport-option-box">
+            <h2 class="select-sport-option-box-heading-title2">ENTER TOURNAMENT NAME</h2>
+            <input id="ssi" class="select-sport-input" type="text">
+
+            <div class="select-sport-options-container">
+                <div id="fb" class="select-sport-options">
+                    Football
+                </div>
+
+                <div id="bb" class="select-sport-options">
+                    Basketball
+                </div>
+
+                <div id="bd" class="select-sport-options">
+                    Badminton
+                </div>
+
+                <div id="kb" class="select-sport-options">
+                    Kabaddi
+                </div>
+
+            </div>
+
+            <div id="ssosb" class="select-sport-options-submit-button">
+                SUBMIT
+            </div>
+        </div>
+    </div>
+
+    <div id="team-create-page-container" class="team-create-page-container">
+        <div class="team-create-box-heading">
+            <h2 class="team-create-box-heading-title">ENTER TEAM NAMES</h2>
+        </div>
+
+        <div class="team-create-box">
+            <div class="team-create-add-box">
+                <input id="tni" class="team-name-input" type="text">
+
+                <div id="tab" class="team-add-button">
+                    ADD
+                </div>
+            </div>
+
+                <div id="div_1" class="team-names-box">
+
+                </div>
+            
+            
+
+            <div id="tcsb" class="team-create-submit-button">
+                SUBMIT
+            </div>
+        </div>
+    </div>
+
+    <div id="team-select-page-container" class="team-select-page-container">
+        <div class="team-select-box-heading">
+            <h2 class="team-select-box-heading-title">SELECT TEAMS</h2>
+        </div>
+
+        <div class="team-select-box">
+            
+            <div id="teams-box" class="teams-box">
+                
+            </div>
+
+            <div id="tssb" class="team-select-submit-button">
+                SUBMIT
+            </div>
+        </div>
+    </div>
+
+    <div id="football-match"  class="football-match">
+        <div class="timer">
+            <div id="time-text" class="time-text">
+                00:00
+            </div>
+
+            <div class="timer-button-box">
+                <div id="timer-play" class="timer-buttons">
+                    PLAY
+                </div>
+
+                <div id="timer-pause" class="timer-buttons">
+                    PAUSE
+                </div>
+
+                <div  id="timer-end" class="timer-buttons">
+                    END
+                </div>
+            </div>
+        </div>
+
+        <div class="score-container">
+            <div class="score-box">
+                <div id="team-1-name" class="team-name">team1</div>
+                <div id="score1-text" class="score-text">
+                    0
+                </div>
+
+                <div class="score-controller-box">
+                    <div  id="score-1-plus"  class="score-controllers">
+                        +
+                    </div>
+
+                    <div id="score-1-minus"class="score-controllers">
+                        -
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="score-box">
+                <div id="team-2-name"  class="team-name">team2</div>
+                <div id="score2-text"class="score-text">
+                    0
+                </div>
+
+                <div class="score-controller-box">
+                    <div id="score-2-plus"class="score-controllers">
+                        +
+                    </div>
+
+                    <div id="score-2-minus"class="score-controllers">
+                        -
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div  id="view-games-page-container" class="view-games-page-container">
+        <div class="view-games-filter-box">
+            <div id="vag"  class="view-games-filters-active">
+                ALL
+            </div>
+            <div  id="vlg" class="view-games-filters">
+                LIVE
+            </div>
+            <div id="vpg"  class="view-games-filters">
+                PAST
+            </div>
+        </div>
+
+        <div id="view-games-options-box" class="view-games-options-box">
+
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="newscript.js"></script>
+</body>
+</html>
