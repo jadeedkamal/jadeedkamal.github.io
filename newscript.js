@@ -51,14 +51,14 @@ $(document).ready(function(){
 
         if(view_game_filter_choice=="all")
             {
-                fetch('http://54.79.31.96:3000/getAll')
+                fetch('https://54.79.31.96:3000/getAll')
                 .then(response => response.json())
                 .then(data => loadgameTable(data['data']))
             }
 
         else if(view_game_filter_choice=="live")
             {
-                fetch('http://54.79.31.96:3000/getAlllive')
+                fetch('https://54.79.31.96:3000/getAlllive')
                 .then(response => response.json())
                 .then(data => loadgameTable(data['data']))
             }
@@ -452,14 +452,14 @@ $(document).ready(function(){
 
             if(view_game_filter_choice=="all")
                 {
-                    fetch('http://54.79.31.96:3000/getAll')
+                    fetch('https://54.79.31.96:3000/getAll')
                     .then(response => response.json())
                     .then(data => loadgameTable(data['data']))
                 }
     
             else if(view_game_filter_choice=="live")
                 {
-                    fetch('http://54.79.31.96:3000/getAlllive')
+                    fetch('https://54.79.31.96:3000/getAlllive')
                     .then(response => response.json())
                     .then(data => loadgameTable(data['data']))
                 }
